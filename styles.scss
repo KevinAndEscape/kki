@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background: white;
+  display: flex;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+.box1 {
+  flex: 1;
+  background: hsl(31, 77%, 52%);
+  text-align: left;
+  padding: 3rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box2 {
+  flex: 1;
+  background: hsl(184, 100%, 22%);
+  text-align: left;
+  padding: 3rem;
+}
+.box3 {
+  flex: 1;
+  background: hsl(179, 100%, 13%);
+  text-align: left;
+  padding: 3rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box1 h1,
+.box2 h1,
+.box3 h1 {
+  color: white;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.box1 p,
+.box2 p,
+.box3 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 2rem 0 4rem 0;
+}
+.box1 button {
+  border: none;
+  background: white;
+  color: hsl(31, 77%, 52%);
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.box1 button:hover {
+  border: 2px solid white;
+  background: hsl(31, 77%, 52%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.box2 button {
+  border: none;
+  background: white;
+  color: hhsl(184, 100%, 22%);
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.box2 button:hover {
+  border: 2px solid white;
+  background: hsl(184, 100%, 22%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.box3 button {
+  border: none;
+  background: white;
+  color: hsl(179, 100%, 13%);
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.box3 button:hover {
+  border: 2px solid white;
+  background: hsl(179, 100%, 13%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
